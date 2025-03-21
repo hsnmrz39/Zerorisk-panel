@@ -17,5 +17,13 @@ function startProcess() {
     
     setTimeout(() => {
         document.getElementById("status").innerText = "Airdrop ve Sniping işlemi tamamlandı!";
-    }, 3000); // Simülasyon süresi (3 saniye)
+    }, 3000);
+}
+
+function flashLoan() {
+    document.getElementById("status").innerText = "Flash Loan İşlemi Başlatıldı...";
+    
+    setTimeout(() => {
+        document.getElementById("status").innerText = "Flash Loan Tamamlandı!";
+    }, 5000);
 }
